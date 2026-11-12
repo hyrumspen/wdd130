@@ -1,0 +1,18 @@
+heading {
+    color: rgb(221, 140, 17);
+    text-align: center;
+}
+h1 {
+    color: navy;
+}
+body {
+    background-color: rgba(154, 101, 27, 0.524);
+}
+footer {
+    text-align: center;
+    padding: 30px;
+}
+.day {
+    color: orangered;
+}
+/*style overrides everything*/

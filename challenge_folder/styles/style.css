@@ -1,0 +1,33 @@
+body {
+    background-color: navajowhite;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    text-align: center;
+}
+.stylelogo {
+    width: 100%;
+}
+.grid-stuff{
+    display: grid;
+    grid-template-columns: 185px 1fr 1fr 185px;
+    grid-gap: 15px;
+    row-gap: 15px;
+}
+.img-one {
+    grid-column: 2/3;
+    width: 100%;
+}
+.img-two {
+    grid-column: 3/4;
+    width: 100%;
+}
+footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 50px;
+}
+.stary {
+    width: 10px;
+}

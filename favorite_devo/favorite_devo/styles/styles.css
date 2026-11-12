@@ -1,0 +1,110 @@
+body {
+  margin: 0 auto;
+  /* height: 100%; */
+  font-family: Arial, sans-serif;
+  /* background: linear-gradient(to bottom, #d3d3d3, #001f3f);
+  background-repeat: no-repeat;
+  background-attachment: fixed;*/
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+.container {
+  text-align: center;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+/* .header-image {
+  background-image: url('../images/icenter.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+} */
+
+/* .header-image h1 {
+  margin: 0;
+  line-height: 0.9;
+    font-size: 3.5em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  background: #00000055;
+} */
+
+.content-box {
+  background-color: white;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 900px;
+  padding: 40px;
+  box-shadow: 5px 5px 0px black;
+  min-height: 400px;
+}
+table {
+  width: 900px;
+  border: 2px solid grey;
+  border-collapse: collapse;
+  
+}
+header, footer {
+  margin-left: 500px;
+}
+th {
+  text-align: left;
+  padding: 15px 15px 15px 30px;
+  background-color: lightgray;
+}
+td {
+  border: 2px solid grey;
+  margin: 0 auto;
+  line-height: 30px;
+  text-align: left;
+  padding: 15px 15px 15px 30px;
+}
+.devo {
+  text-align: left;
+  color: #001f3f;
+}
+h4 {
+  text-align: left;
+  color: grey;
+}
+h5 {
+  color: #001f3f;
+  text-align: left;
+}
+.yellow-line {
+  width: 25%;
+  background-color: yellow;
+  margin-left: 0;
+  height: 3px;
+}
+.divider {
+  width: 900px;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.row {
+  display: flex;
+  gap:30px;
+  margin-bottom: 20px;
+}
+input {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #333;
+}

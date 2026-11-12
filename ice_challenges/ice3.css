@@ -1,0 +1,38 @@
+body {
+    background-color: #183A37;
+}
+h1 {
+    text-align:center;
+    color: #C44900;
+}
+.bordered {
+    background-color: #EFD6AC;
+    border: solid 4px lightblue;
+    margin: 30px;
+    padding: 5px;
+    width: 300px;
+    box-sizing: border-box;
+}
+section {
+    text-align: center;
+}
+.red {
+    color: red;
+    padding: 1em;
+}
+.go:hover {
+    color: orange;
+    border-radius: 35px;
+    border-color:orange;
+    background-color: green;
+}
+.hoverer:hover {
+    color: #1F0A3F;
+   
+}
+span {
+    display:inline;
+}
+button {
+    border-radius: 15px;
+}

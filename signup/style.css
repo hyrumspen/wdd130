@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+.big_grid {
+    border: 10px solid rgb(4, 4, 102);
+    border-radius: 20px;
+    width: 610px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    /* padding: 30px; */
+    grid-template-rows: 20px 1fr;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.scripture {
+    padding-bottom: 50px;
+    font-weight: 200;
+}
+.christ {
+    grid-row: 1/2;
+    margin: 0 auto;
+    object-fit: cover;
+    max-width: 100%;
+    z-index: -2;
+}
+.button {
+    align-items: left;
+    width: 25px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+    height: 25px;
+}
+.grids {
+    width: 550px;
+    background-color: white;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1fr, 9);
+    line-height: 25px;
+    row-gap: 20px;
+    padding: 30px;
+    z-index: -1;
+}
+form {
+    margin: 20px;
+}
+.title {
+    grid-column: 1/-1;
+    grid-template-rows: 1/2;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+section {
+    grid-column: 1/-1;
+    margin: 0 auto;
+}
+section label {
+    grid-column: 1/2;
+}
+section button {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+}
+
+.images {
+    margin: 0 auto;
+    grid-row: 9/10;
+    width: 250px;
+    display: grid;
+    grid-template-columns: repeat(1fr, 5);
+    grid-gap: 5px;
+}
+div img {
+    max-width: 100px;
+}
+.nt {
+    grid-column: 1/2;
+}
+.ot {
+    grid-column: 2/3;
+}
+.bom {
+    grid-column: 3/4;
+}
+.dc {
+    grid-column: 4/5;
+}
+.pgp {
+    grid-column: 5/6;
+}

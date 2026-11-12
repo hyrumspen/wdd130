@@ -1,0 +1,61 @@
+body {
+    background-color: antiquewhite;
+        font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.social_card {
+    display: grid;
+    grid-template-rows: 75px 1fr 50px;
+    grid-template-columns: 75px 1fr 75px;
+    width: 400px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+}
+.waterfall {
+    max-width: 500px;
+    display: block;
+    width: 100%;
+    grid-row: 2/3;
+    grid-column: 1/-1;
+}
+.profile {
+    width: 50px;
+    height: 50px;        /* width and height must match for a true circle */
+    object-fit: cover;    /* fills the square without stretching the photo */
+    clip-path: circle(50%);
+    grid-row: 1/2;
+    margin: 15px;
+}
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.bookmark {
+    font-size: 25px;
+    margin-left: 10px;
+    
+}
+.bottom_buttons {
+  grid-row: 3/4;  
+  display: flex;
+  gap: 12px;                  
+  /* justify-content: flex-start;   */
+  align-items: center;
+}
+.likes{
+    text-align: right;
+}
+.likes_sec {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.menu {
+    margin-top: 20px;
+    margin: 20px;
+    grid-column: 3/4;
+    align-items: center;
+}

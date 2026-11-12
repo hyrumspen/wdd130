@@ -1,0 +1,18 @@
+body {
+    background-color: #FF03;
+}
+img {
+    width: 250px;
+    padding:0;
+    margin: 0;
+    
+}
+a:hover {
+    color:forestgreen;
+}
+article {
+    width:500px;
+    text-align: center;
+    margin: 0 auto;
+    /* first number tells top and bottom, auto means left and right make  */
+}
